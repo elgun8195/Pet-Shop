@@ -139,9 +139,8 @@
 }
 
 #sales .sale-items .sale-text .sale-icons .pet-icon i {
-  margin-left: 7%;
-  margin-top: 4%;
-  width: 40px !important;
+  font-size: 30px;
+  margin-left: 5%;
   height: 40px !important;
   color: #65c178 !important;
 }
@@ -198,6 +197,146 @@
 }
 
 #services {
+  background-color: #f2f2f4 !important;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+#services .service-title {
+  margin-left: 30%;
+  margin-bottom: 3%;
+}
+
+#services .service-title h5 {
+  font-weight: 700;
+  text-align: center;
+  color: #65c178 !important;
+}
+
+#services .service-title h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  margin-top: 2%;
+  color: black !important;
+  font-family: Nunito, sans-serif !important;
+}
+
+#services .service-title h1 span {
+  color: #ed6436;
+}
+
+#services .service-items .service-item {
+  background-color: white;
+  margin-left: 60px;
   margin-top: 5%;
+  width: 322px;
+  height: 352px;
+  text-align: center;
+}
+
+#services .service-items .service-item i {
+  margin-top: 10%;
+  font-size: 60px;
+  color: #65c178;
+}
+
+#services .service-items .service-item h3 {
+  margin-top: 4%;
+  font-weight: 600;
+  font-size: 2rem;
+  color: black !important;
+  font-family: Nunito, sans-serif !important;
+}
+
+#services .service-items .service-item p {
+  color: gray;
+}
+
+#services .service-items .service-item a {
+  font-weight: 600;
+  color: #ed6436;
+}
+
+#footer {
+  background-color: #181818 !important;
+}
+
+#footer .footer-items {
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+#footer .footer-items h4 {
+  color: #ed6436;
+  margin-bottom: 9%;
+}
+
+#footer .footer-items a {
+  color: white;
+}
+
+#footer .footer-items p {
+  color: white;
+}
+
+#footer .footer-items .footer-first h2 {
+  color: white;
+}
+
+#footer .footer-items .footer-first h2 span {
+  color: #ed6436;
+}
+
+#footer .footer-items .footer-first p {
+  color: white;
+}
+
+#footer .footer-items .f-icons a {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 1%;
+}
+
+#footer .footer-items .f-icons a i {
+  margin-top: 30%;
+  font-size: 20px;
+}
+
+#footer .footer-items .footer-four input {
+  margin-bottom: 4%;
+  width: 350px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+#footer .footer-items .footer-four button {
+  width: 350px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #ed6436;
+  color: white;
+}
+
+#footer .footer-end .f-start p {
+  color: white;
+}
+
+#footer .footer-end .f-start p a {
+  color: white;
+  font-weight: 600;
+}
+
+#footer .footer-end .f-end {
+  padding-left: 100%;
+}
+
+#footer .footer-end .f-end a {
+  color: white;
+  font-weight: 500;
+  margin-left: 15%;
 }
 /*# sourceMappingURL=style.css.map */
